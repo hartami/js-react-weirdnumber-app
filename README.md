@@ -1,3 +1,14 @@
+This is an web app which searches weird numbers between 1 and 1000. A "weird number" is a number that is abundant (i.e., the sum of proper divisors is greater than the number) without being pseudoperfect (i.e., no subset of the proper divisors sums to the number itself). The pseudoperfect part of the definition means that finding weird numbers is a case of the subset sum problem (http://mathworld.wolfram.com/WeirdNumber.html , 2019)
+
+The steps to find weird numbers here:
+1. Find all propers divisors of each number.
+2. Find numbers which has the sum of their proper divisors are greater than the numbers (abundant number). Eliminate other numbers.
+3. Check the remaining numbers, if there is a subset which has total element is equal to the number. 
+Checking subsets can be done by combinatoric approach, recursive approach, or dynamic programming. This app applies recursive approach which is succesfull enough for the range (1-1000).  The combinatoric appoarch has been tried and showed at withotheralgorithms.js file. This approach was getting slower for checking the subsets of 720 because it has large divisors (29 divisors). Dynamic programming can be tried later.
+
+The result shows 70 and 836 as weird numbers.
+
+More about weird numbers, please visit http://mathworld.wolfram.com/WeirdNumber.html
 
 ![mybestbeer](https://user-images.githubusercontent.com/22983605/54244232-5e0c6f80-4534-11e9-94dc-9e038d81b3ad.png)
 
