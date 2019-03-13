@@ -1,3 +1,6 @@
+
+![mybestbeer](https://user-images.githubusercontent.com/22983605/54244232-5e0c6f80-4534-11e9-94dc-9e038d81b3ad.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
